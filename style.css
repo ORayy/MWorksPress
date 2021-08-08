@@ -21,6 +21,7 @@ html {
     background-size: cover;
     background-position: center;
     position: relative;
+    overflow: hidden;
 }
 
 /* customizing banner elements */
@@ -33,8 +34,8 @@ html {
     line-height: 9rem;
     letter-spacing: 0.2rem;
     position: absolute;
-    left: 50%;
-    margin-left: 7%;
+    left: 70%;
+    right: 70%;
     top: 50%;
     text-shadow: 0 0.3rem 0.5rem rgba(0,0,0,0.8);
     transform: translate(-50%,-50%);
@@ -48,10 +49,11 @@ html {
     letter-spacing: 0.1rem;
     position: absolute;
     text-align: center;
-    margin-left: 15%;
+    top: 60%;
+    margin-left: 17%;
     margin-right: 20%;
-    margin-bottom: 3rem;
-    margin-top: 35rem;
+    /* margin-bottom: 3rem; */
+    /* margin-top: 35rem; */
     text-shadow: 0 0.3rem 0.5rem rgba(0,0,0,0.8);
     opacity: 1;
 }
@@ -74,8 +76,8 @@ html {
     display: block;
     text-align: center;
     position: relative;
-    top: 52rem;
-    left: 2rem;
+    top: 90rem;
+    left: 6.2rem;
 }
 
 /* hover effect for button */
